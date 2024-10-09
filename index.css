@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    border: 5px solid black;
+    padding: 0;
+}
+
+header, nav, section, article, aside, footer {
+    border: 5px solid black; 
+    padding: 10px;
+}
+
+header, nav, footer {
+    width: 100%;
+}
+
+header {
+    background-color: rgb(30, 30, 155);
+    text-align: center;
+    height: 10%; 
+}
+
+nav {
+    background-color: rgb(44, 192, 192);
+    height: 7%; 
+}
+
+footer {
+    background-color: rgb(30, 30, 155);
+    text-align: center;
+    height: 10%; 
+    border: 5px solid black;
+}
+
+.content {
+    display: flex;
+    flex-grow: 1;
+    padding: 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 75%; 
+    padding: 0;
+}
+
+section, article {
+    width: 100%;
+    flex-grow: 1;
+    border: 5px solid black;
+}
+
+section {
+    background-color: rgb(221, 192, 25);
+}
+
+article {
+    background-color: rgb(241, 134, 122);
+}
+
+aside {
+    background-color: white;
+    color: black;
+    width: 25%;
+    height: 103%;
+    border: 5px solid black;
+}
